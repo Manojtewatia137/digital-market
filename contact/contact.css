@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden !important;
+
+
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.img {
+    width: 180px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.navbar-nav {
+    margin-left: 350px;
+
+
+
+}
+
+li {
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    
+  }
+
+
+
+
+/* icon */
+.icon{
+    color: red;
+    font-size: 4rem;
+    cursor: pointer;
+}
+
+
+/* footer */
+.footer{
+    background-color: rgb(125, 125, 143);
+    color: white;
+}
+
+.logo{
+    margin-left:100px;
+    margin-top: 70px;
+    display: inline-block;
+
+}
+
+.link{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.Copyright{
+    text-align: center;
+    margin-top: 50px;
+   border-top:solid white;
+   padding: 10px;
+}
+
+.img12{
+    width: 200px;
+}
+
+
+@media (max-width:600px) {
+    
+    *{
+        padding: 0px;
+        margin: 0px;
+        overflow-x: hidden;
+    }
+
+
+    .btn12{
+        width: 100%;
+    }
+
+
+    
+}
